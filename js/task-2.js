@@ -7,6 +7,8 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
+// First variant
+
 function makeArray(firstArray, secondArray, maxLength) {
     const newArray = [];
     for(const element of firstArray) {
@@ -28,6 +30,8 @@ console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)); // ["Ear
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)); // ["Earth", "Jupiter", "Neptune", "Uranus"]
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); // []
 
+
+// Second variant. Remembered easy way.
 
 function makeArray(firstArray, secondArray, maxLength) {
     const newArray = firstArray.concat(secondArray);
